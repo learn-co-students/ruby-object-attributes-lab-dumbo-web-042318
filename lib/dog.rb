@@ -1,0 +1,24 @@
+class Dog
+
+  # attr_accessor :name
+  # attr_reader :breed
+  def initialize
+    @name = name
+    @breed = breed
+  end
+
+  def name=(name)
+    @name = name
+  end
+  def name
+    @name
+  end
+
+  def breed=(breed)
+    @breed = breed
+  end
+  def breed
+    @breed
+  end
+
+end
